@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.stack-container {
+  text-align: center;
+}
+
+.stack-button {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #333;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.stack-input {
+  border: 1px solid #333;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.stack-table-container {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.stack-table {
+  border-collapse: collapse;
+}
+
+.stack-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
